@@ -1,5 +1,16 @@
 /*menu*/
 
+#menuu {
+  border: 1px solid white;
+  width: 370px;
+  margin-left: 38%;
+}
+
+#menu h2 {
+  margin-left: 46%;
+}
+
+
 #menu ul{
       list-style-type: none;
       text-transform: uppercase;
@@ -7,15 +18,21 @@
 
 #menu li {
       display: inline-block;
-      background-color:aliceblue;
+      background-color: rgb(224, 224, 224);
       padding: 10px;
       margin: 5px 5px;
+      border: 1px solid;
+      border-radius: 5px;
 }
 
 #menu a:link , a:visited {
   color: black;
   text-decoration: none;
   
+}
+
+#menu li:hover {
+  background-color:gray ;
 }
 
 
@@ -38,6 +55,7 @@
   border: solid;
   margin: 5% 30%;
   width: 500px;
+  border-radius: 20px;
   
   
 }
@@ -46,6 +64,7 @@
   position: relative;
   width: 500px;
   margin-left: 20%;
+  
 
 }
 
@@ -55,7 +74,7 @@
   border: double;
   margin: 1px;
   text-align: center;
-  
+  border-radius: 5px;
 
 
 }
@@ -63,7 +82,10 @@
 .direita {
   float: left;
   width: 30%;
+  height: 18px;
   margin: 2px;
+  border-radius: 5px;
+  border-width: 1px;
 
   
 }
@@ -106,9 +128,14 @@ nav#botoes a:link, a:visited  {
 
 #botoes {
   margin: 10% 30%;
+  
 }
 
 #botoes button:hover {
+  background-color: #757474;
+}
+
+#botoes input:hover {
   background-color: #757474;
 }
 
