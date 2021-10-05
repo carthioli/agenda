@@ -1,0 +1,30 @@
+
+nav#menu ul{
+      list-style-type: none;
+      text-transform: uppercase;
+}
+
+nav#menu li {
+      display: inline-block;
+      background-color:aliceblue;
+      padding: 10px;
+}
+
+nav#menu_contato ul {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+
+nav#cadastro label {
+  align-items: center;
+}
+
+table#contato th {
+  border:1px solid black;
+}
+
+table th {
+  border:1px solid black;
+}
+
