@@ -6,14 +6,14 @@
 </head>
 <body>
    
-
+    <div id="formato">
     <h2>NOVO CADASTRO</h2>
-    
-   <div id="principal">
+
+   
 
     
-
-
+        
+    <div id="alinhamento">
     <form id="cadastro" method="POST">
           
             <label class="esquerda">NOME:</label>        
@@ -24,29 +24,32 @@
             <input class="direita" type="text" id="sobre_nome" name="sobre_nome"><br><br>
 
         <!--Operadoras--> 
-        <div>
+        <div id="operador">  
                 <input  type="checkbox" id="claro" name="claro" value="claro">
-                <label  for="claro">CLARO</label>
+                <label  for="claro">CLARO</label><br>
                 <input  type="checkbox" id="oi" name="oi" value="oi">
                 <label for="claro">OI</label><br>
                 <input  type="checkbox" id="tim" name="tim" value="tim">
-                <label for="claro">TIM</label>
+                <label for="claro">TIM</label><br>
                 <input  type="checkbox" id="vivo" name="vivo" value="vivo">
                 <label for="claro">VIVO</label><br><br>
         </div>
         <!---->
 
             <label class="esquerda" for="telefone">TELEFONE:</label>
-            <input class="direita" type="tel" id="telefone" name="telefone"><br><br>
+            <input class="direita" type="tel" id="telefone" name="telefone" placeholder="(xx) xxxxxx-xxxx"><br><br>
       </form>
+</div>
 
     <nav id="botoes">
-        <button>CADASTRAR</button>
-        
-
-        <button><a href="menu.html"> VOLTAR</a></button>
+        <form>
+            <input type="button" value="CADASTRAR"  onClick="alert('Seu cadastro foi realizado com sucesso!'); return true">
+             <button><a href="menu.html"> VOLTAR</a></button>
+        </form>   
     </nav>
-    
+
+
+</div>    
 </div> 
 </body>
 </html>
