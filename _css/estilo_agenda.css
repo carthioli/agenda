@@ -1,32 +1,52 @@
 /*menu*/
 
-nav#menu ul{
+#menu ul{
       list-style-type: none;
       text-transform: uppercase;
 }
 
-nav#menu li {
+#menu li {
       display: inline-block;
       background-color:aliceblue;
       padding: 10px;
       margin: 5px 5px;
 }
 
-nav#menu a:link , a:visited {
+#menu a:link , a:visited {
   color: black;
   text-decoration: none;
   
 }
 
-nav#menu_contato ul {
+#menu_contato ul {
     list-style-type: none;
     text-transform: uppercase;
 }
 
 /*cadastro*/
-nav#cadastro label {
+.principal < .esquerda .direita {
   
 }
+
+.esquerda {
+  float: left;
+  width: 8%;
+}
+
+.direita {
+  float: left;
+  width: 20%;
+  
+}
+
+/* Cadastro operadoras*/
+
+.operador {
+  float: left;
+  width: 100px;
+  
+}
+
 
 /*contatos*/
 

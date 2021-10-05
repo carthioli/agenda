@@ -7,15 +7,23 @@
 <body>
     <h2>NOVO CADASTRO</h2>
    
-   <div> 
-    <form id="cadastro">
-        <label for="nome">NOME:</label>
-        <input type="text" id="nome" name="nome"><br><br>
+   <div id="principal">
 
-            <label for="sobre_nome">SOBRENOME:</label>
-            <input type="text" id="sobre_nome" name="sobre_nome"><br><br>
+    <form id="cadastro" method="POST">
+    
+    
+       
+           
+                 <label class="esquerda">NOME:</label>
+                                
+                    <input class="direita" type="text" id="nome" name="nome"><br><br>
+                 
+       
+            <label class="esquerda">SOBRENOME:</label>
+            <input class="direita" type="text" id="sobre_nome" name="sobre_nome"><br><br>
 
-        <!--Operadoras-->  
+        <!--Operadoras--> 
+        <nav> 
                 <input type="checkbox" id="claro" name="claro" value="claro">
                 <label for="claro">CLARO</label>
                 <input type="checkbox" id="oi" name="oi" value="oi">
@@ -24,15 +32,18 @@
                 <label for="claro">TIM</label>
                 <input type="checkbox" id="vivo" name="vivo" value="vivo">
                 <label for="claro">VIVO</label><br><br>
+        </nav>
         <!---->
 
-            <label for="telefone" pu>TELEFONE:</label>
-            <input type="tel" id="telefone" name="telefone"><br><br>
+            <label class="esquerda" for="telefone">TELEFONE:</label>
+            <input class="direita" type="tel" id="telefone" name="telefone"><br><br>
       </form>
+
     <nav id="botoes">
         <button>CADASTRAR</button>
         <button><a href="menu.html"> VOLTAR</a></button>
     </nav>
+    
 </div> 
 </body>
 </html>
