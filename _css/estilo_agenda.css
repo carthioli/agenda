@@ -28,16 +28,28 @@
   
 }
 
+
+
+
 .esquerda {
   float: left;
   width: 8%;
+  border: double;
+  margin: 1px;
+  text-align: center;
+
+
 }
 
 .direita {
   float: left;
   width: 20%;
+  margin: 2px;
+
   
 }
+
+
 
 /* Cadastro operadoras*/
 
