@@ -1,3 +1,4 @@
+/*menu*/
 
 nav#menu ul{
       list-style-type: none;
@@ -11,21 +12,32 @@ nav#menu li {
       margin: 5px 5px;
 }
 
+nav#menu a:link , a:visited {
+  color: black;
+  text-decoration: none;
+  
+}
+
 nav#menu_contato ul {
     list-style-type: none;
     text-transform: uppercase;
 }
 
-
+/*cadastro*/
 nav#cadastro label {
-  align-items: center;
+  
 }
+
+/*contatos*/
 
 table#contato th {
   border:1px solid black;
 }
 
-table th {
-  border:1px solid black;
+/*botoes*/
+
+nav#botoes a:link, a:visited  {
+  color: black;
+  text-decoration: none;
 }
 
