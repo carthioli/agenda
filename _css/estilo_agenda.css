@@ -1,22 +1,22 @@
 /*menu*/
 
-#menuu {
+.menuu {
   border: 1px solid white;
   width: 370px;
   margin-left: 38%;
 }
 
-#menu h2 {
+.menu h2 {
   margin-left: 46%;
 }
 
 
-#menu ul{
+.menu ul{
       list-style-type: none;
       text-transform: uppercase;
 }
 
-#menu li {
+.menu li {
       display: inline-block;
       background-color: rgb(224, 224, 224);
       padding: 10px;
@@ -25,18 +25,18 @@
       border-radius: 5px;
 }
 
-#menu a:link , a:visited {
+.menu a:link , a:visited {
   color: black;
   text-decoration: none;
   
 }
 
-#menu li:hover {
+.menu li:hover {
   background-color:gray ;
 }
 
 
-#menu_contato ul {
+.menu_contato ul {
     list-style-type: none;
     text-transform: uppercase;
 }
